@@ -1,0 +1,20 @@
+{
+  "name": "l402jwt-js",
+  "version": "0.1.0",
+  "description": "A TS/JS implementation of L402-JWT",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "author": "Lightning Digital Entertainment",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/node": "^20.6.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "light-bolt11-decoder": "^3.0.0"
+  }
+}
